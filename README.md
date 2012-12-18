@@ -1,6 +1,6 @@
 # leiningen-dependency-updates-plugin
 
-A Leiningen plugin to do many wonderful things.
+A Leiningen plugin to check for available dependency updates of a project
 
 ## Usage
 
