@@ -1,6 +1,6 @@
-# leiningen-dependency-updates-plugin
+# lein-show-updates
 
-A Leiningen plugin to check for available dependency updates of a project
+A Leiningen plugin to show available dependencies updates of the current project.
 
 ## Usage
 
@@ -20,6 +20,6 @@ FIXME: and add an example usage that actually makes sense:
 
 ## License
 
-Copyright © 2012 FIXME
+Copyright © 2012 Jacek Laskowski
 
 Distributed under the Eclipse Public License, the same as Clojure.
