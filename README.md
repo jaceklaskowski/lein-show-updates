@@ -4,19 +4,18 @@ A Leiningen plugin to show available dependencies updates of the current project
 
 ## Usage
 
-FIXME: Use this for user-level plugins:
+Put `[lein-show-updates "0.1.0-SNAPSHOT"]` into the `:plugins` vector of your
+`:user` profile.
 
-Put `[leiningen-dependency-updates-plugin "0.1.0-SNAPSHOT"]` into the `:plugins` vector of your
-`:user` profile, or if you are on Leiningen 1.x do `lein plugin install
-leiningen-dependency-updates-plugin 0.1.0-SNAPSHOT`.
+Should you need to have the plugin available for any project, add the following
+to the `~/.lein/profiles.clj`
 
-FIXME: Use this for project-level plugins:
+	{:user
+	  {:plugins [[lein-show-updates "0.1.0-SNAPSHOT"]]}}
 
-Put `[leiningen-dependency-updates-plugin "0.1.0-SNAPSHOT"]` into the `:plugins` vector of your project.clj.
+Either way should let you run the plugin as follows:
 
-FIXME: and add an example usage that actually makes sense:
-
-    $ lein leiningen-dependency-updates-plugin
+    $ lein show-updates
 
 ## License
 
