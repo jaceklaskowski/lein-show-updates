@@ -2,9 +2,12 @@
 
 A Leiningen plugin to show available dependencies updates of the current project.
 
+The plugin is a poor man's [lein-outdated](https://github.com/ato/lein-outdated).
+
 ## Usage
 
-Until a version is released, `git clone` and `lein install`.
+Until a version is released, run `git clone` and then `lein install` to build 
+the plugin locally.
 
 Put `[lein-show-updates "0.1.0-SNAPSHOT"]` into the `:plugins` vector of your
 `:user` profile.
